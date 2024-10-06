@@ -1,0 +1,30 @@
+// Nama : Robby Adzan Azhari
+// Kelas : TI24G
+
+import java.util.Scanner;
+
+public class HItungGeometri {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+       
+        System.out.print("Masukkan jari-jari lingkaran: ");
+        double jariJari = input.nextDouble();
+        double kelilingLingkaran = 2 * Math.PI * jariJari;
+        System.out.println("Keliling Lingkaran: " + kelilingLingkaran);
+        
+       
+        System.out.print("Masukkan panjang persegi panjang: ");
+        double panjang = input.nextDouble();
+        System.out.print("Masukkan lebar persegi panjang: ");
+        double lebar = input.nextDouble();
+        double luasPersegiPanjang = panjang * lebar;
+        System.out.println("Luas Persegi Panjang: " + luasPersegiPanjang);
+        
+       
+        System.out.print("Masukkan panjang sisi kubus: ");
+        double sisi = input.nextDouble();
+        double volumeKubus = Math.pow(sisi, 3);
+        System.out.println("Volume Kubus: " + volumeKubus);
+    }
+}
