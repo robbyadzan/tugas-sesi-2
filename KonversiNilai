@@ -1,0 +1,19 @@
+// Nama : Robby Adzan Azhari
+// Kelas : TI24G
+
+import java.util.Scanner;
+
+public class KonversiSuhu {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double celcius, fahrenheit;
+
+        
+        System.out.print("Masukkan suhu dalam Celcius: ");
+        celcius = input.nextDouble();
+
+        
+        fahrenheit = (celcius * 9/5) + 32;
+        System.out.println("Suhu dalam Fahrenheit: " + fahrenheit);
+    }
+}
